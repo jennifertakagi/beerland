@@ -1,0 +1,32 @@
+{
+  "name": "beerland",
+  "version": "1.0.0",
+  "description": "A project from beer lover to beer lovers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "clean": "rm yarn.lock && rm -Rf node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennifertakagi/beerland.git"
+  },
+  "author": "Jennifer Takagi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennifertakagi/beerland/issues"
+  },
+  "homepage": "https://github.com/jennifertakagi/beerland#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
